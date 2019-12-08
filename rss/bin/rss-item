@@ -1,0 +1,9 @@
+#!/bin/sh
+
+TITLE=$(echo $@ | cut -d " " -f2-);
+
+echo "      <item>"
+echo "         <title>$TITLE</title>"
+echo "         <link>$1</link>"
+echo "      </item>"
+

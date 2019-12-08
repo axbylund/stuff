@@ -1,0 +1,10 @@
+#!/bin/sh
+
+FILENAME=$(cat rss/src/counter);
+
+rss-item $@ > rss/src/$FILENAME.item
+
+ONE=1
+NEWFILENAME=$(($FILENAME+$ONE))
+
+echo $NEWFILENAME > rss/src/counter

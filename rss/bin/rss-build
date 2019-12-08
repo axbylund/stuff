@@ -1,0 +1,11 @@
+#!/bin/sh
+
+cat rss/src/header > www/rss-feed
+
+#loop through all .item files...
+for filename in rss/src/*.item; do
+	cat "$filename" >> www/rss-feed
+	echo "" >> www/rss-feed
+done
+
+cat rss/src/footer >> www/rss-feed
