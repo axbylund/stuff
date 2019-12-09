@@ -4,4 +4,5 @@
 
 # The Info
 
-* [411 Vid](https://www.youtube.com/watch?v=PfLI1MV-ZVE) - The gist of things
+* [411 vid](https://www.youtube.com/watch?v=PfLI1MV-ZVE) - The gist of things
+* When I kiss a snake I don't keep kissing it, I cut its fuckin head off
