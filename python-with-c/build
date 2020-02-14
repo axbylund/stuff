@@ -1,1 +1,2 @@
 gcc -shared -o lib4python.so -fPIC lib4python.c
+gcc -o c-example -ldl c-example.c
