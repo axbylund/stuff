@@ -2,6 +2,7 @@
 
 * [rss](rss/) - Generate an RSS feed with cron (or not)
 * [c lib for python](python-with-c/) - Example of making a binary library for Python
+* [blog](blog/) - Even MISCer
 
 # The Info
 
